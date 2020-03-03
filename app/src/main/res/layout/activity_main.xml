@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:columnCount="3"
+        android:rowCount="5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="playTrack"
+            android:tag="sound01"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="1"
+            android:onClick="playTrack"
+            android:tag="sound02"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="3"
+            android:layout_columnWeight="1"
+            android:onClick="playTrack"
+            android:tag="sound03"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:onClick="playTrack"
+            android:tag="sound04"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="2"
+            android:onClick="playTrack"
+            android:tag="sound05"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="3"
+            android:layout_columnWeight="2"
+            android:onClick="playTrack"
+            android:tag="sound06"
+            android:text="Button" />
+
+        <ImageView
+            android:id="@+id/imageView_left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:src="@drawable/km1"/>
+
+        <ImageView
+            android:id="@+id/imageView_mid"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="3"
+            android:src="@drawable/kmorg" />
+
+        <ImageView
+            android:id="@+id/imageView_right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="3"
+            android:layout_columnWeight="3"
+            android:src="@drawable/km2" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="4"
+            android:onClick="playTrack"
+            android:tag="sound07"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="4"
+            android:onClick="playTrack"
+            android:tag="sound08"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="3"
+            android:layout_columnWeight="4"
+            android:onClick="playTrack"
+            android:tag="sound09"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="5"
+            android:onClick="playTrack"
+            android:tag="sound10"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="5"
+            android:onClick="playTrack"
+            android:tag="sound11"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="3"
+            android:layout_columnWeight="5"
+            android:onClick="playTrack"
+            android:tag="sound12"
+            android:text="Button" />
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
